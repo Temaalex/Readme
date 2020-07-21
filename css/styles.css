@@ -80,9 +80,13 @@ table {
        url('../fonts/montserrat-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.header {
-	height: 70px;
-	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+body{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(31, 32, 65, 0.5);
 }
 .wrapper {
 	max-width: 1440px;
@@ -90,117 +94,45 @@ table {
 	height: 70px;
 	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
-.logo {
+.header {
+	height: 70px;
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header_wrapper{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-end;
+	justify-content:space-between;	
+}
+ .header_logo {
 /* Logo */
-position: absolute;
 width: 105.69px;
 height: 40px;
-margin-left:140px;
-top: 15px;
+margin-left: 140px;
+margin-top: 15px;
+} 
+
+.header_list{
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.nav {
-	
+.header_item{
+	margin-right: 20px;
 }
-.about_our {
-	/* О нас */
-
-position: absolute;
-width: 42px;
-height: 18px;
-left: 531px;
-top: 26px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
+.header_item1{
+	margin-right: 0px;
 }
-
-.services {
-/* Услуги */
-
-position: absolute;
-width: 50px;
-height: 18px;
-left: 593px;
-top: 26px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
+.header_link{
+	font-size: 14px;
+	line-height: 17px;
+	color:rgba(31, 32, 65, 0.5);
+	text-decoration:none;
 }
-
-.vacancy{
-	/* Вакансии */
-
-position: absolute;
-width: 72px;
-height: 18px;
-left: 687px;
-top: 26px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-}
-
-.news {
-	/* Новости */
-
-position: absolute;
-width: 62px;
-height: 18px;
-left: 779px;
-top: 26px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
-}
-
-.agreements {
-	/* Соглашения */
-
-position: absolute;
-width: 92px;
-height: 18px;
-left: 861px;
-top: 26px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
-}
-
-
 
 
 
