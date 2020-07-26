@@ -120,6 +120,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	padding-left:140px;
+	margin-right: 140px;
 }
 
 .header_item{
@@ -155,6 +156,7 @@ body{
   border-style:solid;
   border-width: 2px;
   color: #BC9CFF;
+  background:white;
 } 
 .button_enter:hover {
   cursor: pointer;
@@ -176,10 +178,26 @@ body{
   border: none;
   border-radius: 100px;
   background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-  border-color: #BC9CFF;
-  border-width: 2px;
   color: #FFFFFF;
 }
 .header_button_registration:hover {
   cursor: pointer;
+}
+.header_buttoms{
+display: flex;
+	flex-wrap: wrap;
+}
+.sel{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	display: inline-block;
+	border: none;
+	outline: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(31, 32, 65, 0.5);
+	
 }
