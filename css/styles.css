@@ -88,6 +88,7 @@ body{
 	line-height: 17px;
 	color: rgba(31, 32, 65, 0.5);
 }
+/*header*/
 .wrapper {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -114,20 +115,17 @@ body{
 	margin-left: 20px;
 	margin-top: 15px;
 } 
-
 .header_list{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left:20px;
+	margin-left: 20px;
 	margin-right: 20px;
-}
-
-.header_item{
-	margin-right: 20px;
-	margin-top: 17px;
 	
 }
-
+.header_item{
+	margin-right: 20px;
+	margin-top: 26px;	
+}
 .header_link{
 	font-size: 14px;
 	line-height: 17px;
@@ -137,7 +135,6 @@ body{
 .header_link:hover, .header_link:focus, .header_link:active{
 	opacity: .75;
 }
-
 .button_enter {
   display: inline-block;
   width: 87px;
@@ -159,7 +156,8 @@ body{
   color: #BC9CFF;
   background:white;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 18px;
+
 } 
 .button_enter:hover {
   cursor: pointer;
@@ -182,7 +180,8 @@ body{
   border-radius: 100px;
   background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   color: #FFFFFF;
-  margin-top: 10px;
+  margin-top: 18px;
+  margin-bottom: 8px;
 }
 .header_button_registration:hover {
   cursor: pointer;
@@ -205,7 +204,7 @@ body{
 	line-height: 17px;
 	color: rgba(31, 32, 65, 0.5);
 	width: 62px;
-	background: url("arrow.svg") no-repeat right center;
+	background: url("../img/svg/arrow.svg") no-repeat right center;
 }
 .sell{
 	-moz-appearance: none;
@@ -221,5 +220,47 @@ body{
 	line-height: 17px;
 	color: rgba(31, 32, 65, 0.5);
 	width: 93px;
-	background: url("arrow.svg") no-repeat right center;
+	background: url("../img/svg/arrow.svg") no-repeat right center;
+}
+/*footer*/
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.footer_line{
+	margin:0px;
+}
+.footer {
+	width: 100%;
+	max-height: 70px;
+	grid-row-start: 2;
+    grid-row-end: 3;
+}
+.footer_wrapper{
+	max-width: 1140px;
+	margin: 0 auto;
+	align-items:flex-end;
+	justify-content:space-between;
+	max-height: 70px;
+}
+.footer_copyrite{
+	margin:;
+}
+.footer_p{
+	max-width: 367px;
+	color: rgba(31, 32, 65, 0.75);
+	float:left;
+	margin:26px 0px 0px 20px;
+	padding-bottom:20px;
+	
+}
+.footer_icon{
+	float:right;
+	margin-top:23px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer_icon_stile{
+	margin-right: 20px;	
 }
